@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_account_set"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_bg"
+    android:padding="@dimen/content_margin" >
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginTop="@dimen/content_margin"
+        android:background="@drawable/selector_text_field"
+        android:drawableLeft="@drawable/m_about_icon_proposal"
+        android:drawablePadding="9.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/content_padding"
+        android:text="@string/usernametag"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+    <TextView
+        android:id="@+id/mobile_number"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_below="@id/username"
+        android:layout_marginTop="@dimen/content_margin"
+        android:background="@drawable/selector_text_field"
+        android:drawableLeft="@drawable/m_about_icon_proposal"
+        android:drawablePadding="9.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/content_padding"
+        android:text="@string/mobileNum"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/car_info"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_below="@id/mobile_number"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/selector_text_field"
+        android:drawableLeft="@drawable/m_about_icon_share"
+        android:drawablePadding="9.0dip"
+        android:gravity="center_vertical"
+        android:padding="@dimen/content_padding"
+        android:text="@string/car_info"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/address_info"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/car_info"
+        android:layout_marginTop="@dimen/content_margin"
+        android:background="@drawable/selector_text_field"
+        android:drawableLeft="@drawable/m_about_icon_welcome"
+        android:drawablePadding="9.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/content_padding"
+        android:text="@string/address_info"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/agreement"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/address_info"
+        android:layout_marginTop="@dimen/content_margin"
+        android:background="@drawable/selector_text_field"
+        android:drawableLeft="@drawable/xieyi"
+        android:drawablePadding="9.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/content_padding"
+        android:text="@string/agreement"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/id_offical_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/agreement"
+        android:layout_marginTop="@dimen/content_margin"
+        android:background="@drawable/selector_text_field"
+        android:drawableLeft="@drawable/m_about_icon_phone"
+        android:drawablePadding="9.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/content_padding"
+        android:text="@string/service_tel"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/exit"
+        android:soundEffectsEnabled="false"
+        android:textColor="@color/red_weibo" />
+
+</RelativeLayout>

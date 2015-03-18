@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/com/pp/rentcar/activity/HomePageActivity.java=UTF-8
+encoding//src/com/pp/rentcar/activity/RestaurantDetailActivity.java=UTF-8
+encoding//src/com/pp/rentcar/activity/WelcomeActivity.java=UTF-8
+encoding//src/com/pp/rentcar/adapter/RestaurantDetailAdapter.java=UTF-8
+encoding//src/com/pp/rentcar/fragment/AboutsFragment.java=UTF-8
+encoding//src/com/pp/rentcar/fragment/CameraFragment.java=UTF-8
+encoding//src/com/pp/rentcar/fragment/GiftsFragment.java=UTF-8
+encoding//src/com/pp/rentcar/fragment/HomeFragment.java=UTF-8
+encoding//src/com/pp/rentcar/fragment/InvitationsFragment.java=UTF-8
+encoding//src/com/pp/rentcar/fragment/MenuFragment.java=UTF-8
+encoding//src/com/pp/rentcar/fragment/OrderFragment.java=UTF-8
+encoding//src/com/pp/rentcar/image/ImageLoaderConfig.java=UTF-8
+encoding//src/com/pp/rentcar/util/Constants.java=UTF-8
+encoding/<project>=UTF-8
